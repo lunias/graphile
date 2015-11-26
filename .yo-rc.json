@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "graphile",
+    "packageName": "io.graphile",
+    "packageFolder": "io/graphile",
+    "authenticationType": "oauth2",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "useSass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "enableTranslation": false,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "10ac8308f154e796f9df18768cd4bba6bf0ae54f",
+    "testFrameworks": [
+      "gatling"
+    ]
+  }
+}
